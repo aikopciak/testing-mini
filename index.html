@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A hands-on GitHub Pages starter for building with Codex and GitHub.">
+  <title>Codex × GitHub Studio</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./demo.js"></script>
+</head>
+<body>
+  <header class="shell top">
+    <a class="brand" href="./"><span class="mark" aria-hidden="true">⌘</span> Codex × GitHub</a>
+    <nav aria-label="Main navigation"><a href="#demo">Demo</a><a href="https://github.com/aikopciak/testing-mini">Repository ↗</a></nav>
+  </header>
+  <main class="shell">
+    <section class="hero" aria-labelledby="title">
+      <div>
+        <p class="eyebrow"><span></span> THE GITHUB PAGES STARTER</p>
+        <h1 id="title">From prompt<br>to <em>published.</em></h1>
+      </div>
+      <div class="intro">
+        <p>A small site with a complete workflow. Give Codex a task, review the changes on GitHub, and publish with GitHub Pages.</p>
+        <a class="button" href="#demo">Explore the workflow <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="demo" id="demo" aria-labelledby="demo-title">
+      <div class="demo-header">
+        <h2 id="demo-title">Try the workflow</h2>
+        <span class="demo-label"><i></i> Interactive demo</span>
+      </div>
+      <div class="workspace">
+        <fieldset class="steps">
+          <legend>Choose a step</legend>
+          <label><input type="radio" name="step" value="prompt" checked><span>01</span> Prompt</label>
+          <label><input type="radio" name="step" value="review"><span>02</span> Review</label>
+          <label><input type="radio" name="step" value="publish"><span>03</span> Publish</label>
+        </fieldset>
+        <div class="terminal">
+          <div class="terminal-bar"><span class="lights" aria-hidden="true">● ● ●</span><span id="file">codex-prompt.txt</span></div>
+          <div class="terminal-body" aria-live="polite">
+            <p id="step-title">Give Codex a concrete task</p>
+            <pre><code id="example">Add a dark mode toggle to this site.
+Remember the visitor’s choice and
+keep the button keyboard accessible.</code></pre>
+            <p id="detail">Start with the behavior you want and the checks that matter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reuse" aria-labelledby="reuse-title">
+      <div><p class="eyebrow"><span></span> MAKE IT YOURS</p><h2 id="reuse-title">Start with this site.</h2></div>
+      <div><p>Fork the repository, edit the HTML, CSS, or JavaScript, and publish from the root of your default branch.</p><a href="https://github.com/aikopciak/testing-mini#readme">Read the setup guide ↗</a></div>
+    </section>
+  </main>
+  <footer class="shell">Codex × GitHub <span>Built for GitHub Pages</span></footer>
+</body>
+</html>
